@@ -1,3 +1,5 @@
+//written with Roberto Cervantes Jun 17 2021
+
 const wordSearch = (letters, word) => { 
     const horizontalJoin = letters.map(ls => ls.join(''))
     for (l of horizontalJoin) {
@@ -51,7 +53,7 @@ const wordSearch = (letters, word) => {
 
 }
 
-
+//test
 // wordSearch([
 //     ['A', 'W', 'C', 'F', 'Q', 'U', 'A', 'L'],
 //     ['S', 'E', 'I', 'N', 'F', 'E', 'L', 'D'],
